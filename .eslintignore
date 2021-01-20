@@ -1,0 +1,14 @@
+# /node_modules/* and /bower_components/* in the project root are ignored by default
+node_modules/**/*
+bower_components/**/*
+coverage/**/*
+public/**/*
+
+# Ignore built files
+dist/**/*
+dist_srr/**/*
+
+# Config
+# *.config.ts
+# *.config.js
+# *rc.js
